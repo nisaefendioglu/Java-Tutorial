@@ -61,6 +61,20 @@ public class VeriTipleriOrnekleri {
         int s3 = 1;
         int toplam = s1+s2+s3;
         System.out.println("Bu sayıların toplamı:" + toplam );
+       
+        
+        /* İnt sayi1 = 80; int sayi2=25 şeklinde iki değişken ve değer ataması sağlayın 
+        ardından bu verilerin birbirleriyle eşit olup olmama durumunu karşılaştırın ve 
+        4 işlem değişkenleri oluşturarak 4 işlem gerçekleştirin ekrana çıktısını veriniz. */
+        System.out.println("Soru 5 Çıktısı:");
+        int sayi1=80 , sayi2=25;
+        boolean esitMi = (sayi1==sayi2);
+        int toplama = (sayi1+sayi2);
+        int cikarma = (sayi1-sayi2);
+        int carpma = (sayi1*sayi2);
+        int bolme = (sayi1/sayi2);
+        System.out.println(esitMi);
+        System.out.println("Toplama: " + toplama + " Çıkartma: " + cikarma +" Çarpma: " + carpma + " Bölme: " + bolme);
 
 
     }
