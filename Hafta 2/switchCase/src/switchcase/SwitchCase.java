@@ -41,7 +41,7 @@ public class SwitchCase {
                break;
            
            default : 
-               System.out.println("Sayı Bulunamadı");
+               System.out.println("Girilen Sayı Bulunamadı");
        }
     }
     
