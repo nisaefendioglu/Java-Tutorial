@@ -16,7 +16,7 @@ public class SwitchCase {
      */
     public static void main(String[] args) {
        //SORU 1
-       /*Switch Case kullanarak 1’ den 10 a kadar case oluşturun ve 
+       /*Switch Case kullanarak 1’ den 5 e kadar case oluşturun ve 
         tanımlanmış olan sayının kaç olduğunu ekrana yazdırın. */
        int sayi = 3;
        switch(sayi){
@@ -41,7 +41,7 @@ public class SwitchCase {
                break;
            
            default : 
-               System.out.println("Sayı Bulunamadı");
+               System.out.println("Girilen Sayı Bulunamadı");
        }
     }
     
