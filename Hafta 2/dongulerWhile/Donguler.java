@@ -29,6 +29,16 @@ public class Donguler {
            sayi = sayi + 2;
        }
        
+	//While Ödev Sorusu
+	int i = 10, j = 0, k = 0;
+        while (i>j){
+            System.out.println("i j'den büyüktür.");
+            i = i-2;
+            j = j+2;
+            k++;
+        }
+        System.out.println("Artık büyük değildir.");
+        System.out.println(k + " kez döngüye girildi.");
        
         }
         // TODO code application logic here
