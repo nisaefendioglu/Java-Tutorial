@@ -1,0 +1,2 @@
+enumaylar.EnumAylar
+enumaylar.aylar

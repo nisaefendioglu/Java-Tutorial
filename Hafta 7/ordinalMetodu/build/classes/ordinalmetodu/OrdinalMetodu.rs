@@ -1,0 +1,2 @@
+ordinalmetodu.OrdinalMetodu
+ordinalmetodu.araba
