@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_height="100dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/butonbackground"
+        android:text="1"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        app:backgroundTint="#dcdde1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/butonbackground"
+        android:text="2"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        app:backgroundTint="#dcdde1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/butonbackground"
+        android:text="3"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        app:backgroundTint="#dcdde1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/butonbackground"
+        android:text="4"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        app:backgroundTint="#dcdde1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="293dp" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/butonbackground"
+        android:text="5"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        app:backgroundTint="#dcdde1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="293dp" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/butonbackground"
+        android:text="6"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        app:backgroundTint="#dcdde1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteY="293dp" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/butonbackground"
+        android:text="8"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        app:backgroundTint="#dcdde1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="404dp" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/butonbackground"
+        android:text="9"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        app:backgroundTint="#dcdde1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="404dp" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/butonbackground"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        app:backgroundTint="#dcdde1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteY="404dp" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/telephone"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="530dp"
+        app:backgroundTint="@drawable/telephone"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

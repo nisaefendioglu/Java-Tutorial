@@ -1,12 +1,13 @@
 package com.nisa.contactbookapp;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Kisiler extends AppCompatActivity {
+public class Kisiler extends Activity {
 
 
     private String [] kisiİsimleri = {"Ayşe" , "Ahmet" , "Nisa" , "Mehmet" , "Ali", "Fatma"};

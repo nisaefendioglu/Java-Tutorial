@@ -21,13 +21,15 @@
         android:layout_marginLeft="55dp"
         app:backgroundTint="@drawable/call"/>
 
-    <Button
-        android:id="@+id/kisiler"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:background="@drawable/contacts"
-        android:layout_marginLeft="75dp"
-        app:backgroundTint="@drawable/contacts"/>
+        <Button
+            android:id="@+id/kisiler"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="75dp"
+            android:background="@drawable/contacts"
+            android:onClick="kisiler"
+            app:backgroundTint="@drawable/contacts"
+            tools:ignore="OnClick" />
 
     <Button
         android:id="@+id/arama"
