@@ -13,20 +13,20 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
         android:background="@drawable/butonbackground"
         android:text="1"
         android:textColor="@color/black"
         android:textSize="40dp"
         app:backgroundTint="#dcdde1"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteX="52dp"
         tools:layout_editor_absoluteY="176dp" />
 
     <Button
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
         android:background="@drawable/butonbackground"
         android:text="2"
         android:textColor="@color/black"
@@ -37,32 +37,32 @@
         tools:layout_editor_absoluteY="176dp" />
 
     <Button
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
         android:background="@drawable/butonbackground"
         android:text="3"
         android:textColor="@color/black"
         android:textSize="40dp"
         app:backgroundTint="#dcdde1"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteX="279dp"
         tools:layout_editor_absoluteY="176dp" />
 
     <Button
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
         android:background="@drawable/butonbackground"
         android:text="4"
         android:textColor="@color/black"
         android:textSize="40dp"
         app:backgroundTint="#dcdde1"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteX="52dp"
         tools:layout_editor_absoluteY="293dp" />
 
     <Button
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
         android:background="@drawable/butonbackground"
         android:text="5"
         android:textColor="@color/black"
@@ -73,32 +73,32 @@
         tools:layout_editor_absoluteY="293dp" />
 
     <Button
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
         android:background="@drawable/butonbackground"
         android:text="6"
         android:textColor="@color/black"
         android:textSize="40dp"
         app:backgroundTint="#dcdde1"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteX="279dp"
         tools:layout_editor_absoluteY="293dp" />
 
     <Button
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
         android:background="@drawable/butonbackground"
         android:text="8"
         android:textColor="@color/black"
         android:textSize="40dp"
         app:backgroundTint="#dcdde1"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteX="52dp"
         tools:layout_editor_absoluteY="404dp" />
 
     <Button
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
         android:background="@drawable/butonbackground"
         android:text="9"
         android:textColor="@color/black"
@@ -109,25 +109,25 @@
         tools:layout_editor_absoluteY="404dp" />
 
     <Button
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
         android:background="@drawable/butonbackground"
         android:text="0"
         android:textColor="@color/black"
         android:textSize="40dp"
         app:backgroundTint="#dcdde1"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteX="279dp"
         tools:layout_editor_absoluteY="404dp" />
 
     <Button
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:background="@drawable/telephone"
+        app:backgroundTint="@drawable/telephone"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="165dp"
-        tools:layout_editor_absoluteY="530dp"
-        app:backgroundTint="@drawable/telephone"/>
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="531dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
