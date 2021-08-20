@@ -28,13 +28,20 @@ public class MainActivity extends Activity {
     }
 
     void islemler(){
-        kisiler.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //getApplicationContext(), Kisiler.class
-                Intent intent = new Intent(MainActivity.this,Kisiler.class);
-                startActivity(intent);
-            }
+        kisiler.setOnClickListener(v -> {
+            //getApplicationContext(), Kisiler.class
+            Intent intent = new Intent(MainActivity.this,Kisiler.class);
+            startActivity(intent);
+        });
+
+        arama.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this,Arama.class);
+            startActivity(intent);
+        });
+
+        sonCagrilar.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this,SonCagrilar.class);
+            startActivity(intent);
         });
 
     }
