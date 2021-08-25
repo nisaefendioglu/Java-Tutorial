@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/sonCagrilar"
+        android:title="Son Çağrılar"
+        android:icon="@drawable/call" />
+    <item android:id="@+id/kisiler"
+        android:title="Kişiler"
+        android:icon="@drawable/contacts" />
+    <item android:id="@+id/arama"
+        android:title="Aramalar"
+        android:icon="@drawable/telephone" />
+
+</menu>
