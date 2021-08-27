@@ -1,13 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".Detay">
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/user"
+        android:textSize="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="150dp"
+        app:backgroundTint="#595050" />
+
+    <ImageButton
+        android:id="@+id/video"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/video"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="80dp"
+        />
+
+    <ImageButton
+        android:id="@+id/call"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/phonecall"
+        android:layout_marginTop="202dp"
+        android:layout_marginLeft="190dp"
+        />
+
+    <ImageButton
+        android:id="@+id/message"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/message"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="300dp"
+        />
 
     <TextView
-        android:id="@+id/kisiDetay"
+        android:id="@+id/detail"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="Kişiler Detay" />
+        android:layout_height="wrap_content"
+        android:text=" Telefon \n +90 (552) 000 00 \n \n Mesaj Gönder \n \n Kişiyi Paylaş \n \n Hızlı Aramaya Ekle"
+        android:textSize="20dp"
+        android:layout_marginTop="300dp"
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/block"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="520dp"
+        android:text="Bu Arayanı Engelle"
+        android:textColor="#c0392b"
+        android:textSize="20dp"
+        android:layout_marginLeft="15dp"
+        />
+</FrameLayout>

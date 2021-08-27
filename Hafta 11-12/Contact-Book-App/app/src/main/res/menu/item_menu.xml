@@ -9,5 +9,4 @@
     <item android:id="@+id/arama"
         android:title="Aramalar"
         android:icon="@drawable/telephone" />
-
 </menu>

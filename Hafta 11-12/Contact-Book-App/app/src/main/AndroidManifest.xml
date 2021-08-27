@@ -19,9 +19,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Kisiler"/>
-        <activity android:name=".Arama"/>
-        <activity android:name=".SonCagrilar"/>
     </application>
 
 </manifest>
