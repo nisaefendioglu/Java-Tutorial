@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/instagramLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logo"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:inputType="textPersonName"
+        android:hint="Phone number, username or email"
+        android:textColorHint="#958F8F"
+        android:textColor="@color/black"
+        android:maxLines="75" />
+
+    <EditText
+        android:id="@+id/userPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textColorHint="#FF958F8F"
+        android:maxLines="75"
+        android:minLines="7"/>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="#96E5EF"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        app:backgroundTint="#96E5EF" />
+
+    <TextView
+        android:id="@+id/errorMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#e74c3c"
+        android:layout_marginTop="1dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="OR"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/loginButtonFacebook"
+            android:onClick="loginFacebookOnClick"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/facebooklogo"
+            android:backgroundTint="@color/blue"
+            app:backgroundTint="#273C75" />
+
+        <Button
+            android:layout_toRightOf="@id/loginButtonFacebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:text="Login with Facebook"
+            android:textColor="#273c75"
+            android:textAllCaps="false"
+            app:backgroundTint="#FFFFFF" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/forgetPassword"
+        android:onClick="forgetPasswordOnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Forget password?"
+        app:backgroundTint="#FFFFFF"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:weightSum="2">
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account?"
+        android:layout_gravity="center"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/signUp"
+            android:onClick="signUpOnClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:background="@android:color/transparent"
+            android:text="Sign up"
+            android:textColor="#0095f6"
+            app:backgroundTint="#FFFFFF"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+</LinearLayout>
+

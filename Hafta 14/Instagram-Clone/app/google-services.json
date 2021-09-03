@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "355163398165",
+    "project_id": "instagram-648a6",
+    "storage_bucket": "instagram-648a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355163398165:android:9cb8da612a4d94c9582e1c",
+        "android_client_info": {
+          "package_name": "com.nisaefendioglu.instagram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355163398165-8d7t0pdfsk02l6u2u93a8lt0p6fc1101.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8LsVusKHmGmYYGm1r9NVA42FpTrSIuOM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355163398165-8d7t0pdfsk02l6u2u93a8lt0p6fc1101.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
